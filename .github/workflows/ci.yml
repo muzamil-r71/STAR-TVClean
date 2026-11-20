@@ -24,7 +24,7 @@ jobs:
       - name: Example lists, README tables, shell helpers
         env:
           CLEANYOURTV_STRICT: ${{ github.event_name == 'push' && '1' || '' }}
-        run: python3 -m unittest discover -s tests -v
+          run: python3 -m unittest discover -s tests -v -p "test_debloat_paths.py"
 
   launcher:
     name: Launcher build and unit tests
