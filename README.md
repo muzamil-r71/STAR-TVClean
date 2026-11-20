@@ -395,4 +395,3 @@ script for it is in [PR #84](https://github.com/Gathin23/cleanyourtv/pull/84).
 control what goes on your TV. No prebuilt binaries.
 
 STAR TVOS - Sharp AQUOS Edition
-.
