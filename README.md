@@ -393,3 +393,5 @@ script for it is in [PR #84](https://github.com/Gathin23/cleanyourtv/pull/84).
 
 **Can I just download the APK?** Build it with the one-line script; it takes a minute and you
 control what goes on your TV. No prebuilt binaries.
+
+STAR TVOS - Sharp AQUOS Edition
