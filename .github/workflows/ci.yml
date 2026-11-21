@@ -51,7 +51,7 @@ jobs:
           test "$size" -lt 409600 || { echo "APK is over 400 KB; the launcher targets 1 GB TVs, keep it small"; exit 1; }
 
       - name: Upload APK
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: STAR-TVOS-APK
           path: launcher/app/build/outputs/apk/release/app-release.apk
